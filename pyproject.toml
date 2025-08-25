@@ -1,0 +1,16 @@
+[project]
+name = "nitro-d"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Luca Colombo", email = "luca97.colombo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cupy-cuda12x>=13.5.1",
+    "ipykernel>=6.29.5",
+    "seaborn>=0.13.2",
+    "torchvision>=0.22.1",
+    "tqdm>=4.67.1",
+]
